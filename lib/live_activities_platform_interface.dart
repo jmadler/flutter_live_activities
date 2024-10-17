@@ -46,6 +46,10 @@ abstract class LiveActivitiesPlatform extends PlatformInterface {
     throw UnimplementedError('updateActivity() has not been implemented.');
   }
 
+  Future updateActivityWithAlert(String activityId, Map<String, dynamic> data, String title, String body, {String? sound}) {
+    throw UnimplementedError('updateActivityWithAlert() has not been implemented.');
+  }
+
   Future endActivity(String activityId) {
     throw UnimplementedError('endActivity() has not been implemented.');
   }
